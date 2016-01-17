@@ -20,12 +20,10 @@ public class PhoneInfo implements Serializable {
     }
 
     public boolean equals(Object o) {
-        PhoneInfo p = (PhoneInfo) o;
-
-        if (name.compareTo(p.name) == 0)
-            return true;
+        if (o instanceof PhoneInfo)
+            return name.compareTo(((PhoneInfo) o).name) == 0;
         else
-            return false;
+            return true;
     }
 
     public String toString() {
