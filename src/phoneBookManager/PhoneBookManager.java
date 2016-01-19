@@ -102,6 +102,21 @@ public class PhoneBookManager {
         }
     }
 
+    public void modifyData() {
+        System.out.print("이름을 입력하세요 : ");
+        String name = input.nextLine();
+
+        Iterator<PhoneInfo> iter = infoStorage.iterator();
+        while (iter.hasNext()) {
+            PhoneInfo curInfo = iter.next();
+
+            if (curInfo.name.compareTo(name) == 0) {
+                System.out.print("변경할 전화번호를 입력하세요 : ");
+                curInfo.phoneNumber = input.nextLine();
+            }
+        }
+    }
+
     public void deleteData() {
         System.out.print("이름을 입력하세요 : ");
         String name = input.nextLine();

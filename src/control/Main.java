@@ -7,7 +7,7 @@ import java.util.*;
 import exception.MenuNumException;
 
 interface MenuNum {
-    int INPUT = 1, SEARCH = 2, DELETE = 3, PRINT = 4, EXIT = 5;
+    int INPUT = 1, SEARCH = 2, MODIFY = 3, DELETE = 4, PRINT = 5, EXIT = 6;
 }
 
 class MenuViewer {
@@ -15,9 +15,10 @@ class MenuViewer {
         System.out.println("선택하세요.");
         System.out.println("1. 데이터 입력");
         System.out.println("2. 데이터 검색");
-        System.out.println("3. 데이터 삭제");
-        System.out.println("4. 입력된 데이터 출력");
-        System.out.println("5. 프로그램 종료");
+        System.out.println("3. 데이터 변경");
+        System.out.println("4. 데이터 삭제");
+        System.out.println("5. 입력된 데이터 출력");
+        System.out.println("6. 프로그램 종료");
         System.out.print("선택 : ");
     }
 }
@@ -44,6 +45,9 @@ public class Main {
                         break;
                     case MenuNum.SEARCH:
                         manager.searchData();
+                        break;
+                    case MenuNum.MODIFY:
+                        manager.modifyData();
                         break;
                     case MenuNum.DELETE:
                         manager.deleteData();
