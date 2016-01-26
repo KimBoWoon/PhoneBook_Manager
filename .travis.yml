@@ -2,6 +2,7 @@
 language: java
 
 gradle check
+./gradlew check
 
 jdk:
   - oraclejdk8
