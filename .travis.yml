@@ -1,1 +1,5 @@
+# .travis.yml
 language: java
+
+jdk:
+  - jdk8
