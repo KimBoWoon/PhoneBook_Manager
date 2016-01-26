@@ -1,8 +1,7 @@
 # .travis.yml
 language: java
 
-install: 
-  - ant deps
+gradle check
 
 jdk:
   - oraclejdk8
