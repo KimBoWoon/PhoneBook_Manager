@@ -744,7 +744,7 @@
       <workItem from="1453821312020" duration="60000" />
       <workItem from="1453823230600" duration="296000" />
       <workItem from="1453823908150" duration="306000" />
-      <workItem from="1453824537531" duration="1776000" />
+      <workItem from="1453824537531" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="Hashcode 수정">
       <created>1453049576038</created>
@@ -756,7 +756,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6015000" />
+    <option name="totallyTimeSpent" value="6230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
