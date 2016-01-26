@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<project name="test" default="compile" basedir=".">
-    <property name="src" location="src/"/>
+<project name="PhoneBook_Manager" default="compile" basedir=".">
+    <property name="src" location="src/control/Main.java"/>
 
     <target name="compile">
         <javac srcdir="${src}"/>
