@@ -12,11 +12,11 @@
         </fileset>
     </path>
 
-    <target name="prepare">
+    <target name="PhoneBook_Manager">
         <mkdir dir="${build.prod.dir}"/>
     </target>
 
-    <target name="compile" depends="prepare">
+    <target name="compile" depends="PhoneBook_Manager">
         <javac srcdir="${src.dir}" destdir="${build.prod.dir}">
             <classpath refid="project.classpath"/>
         </javac>
