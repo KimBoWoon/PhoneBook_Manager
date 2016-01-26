@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="PhoneBook_Manager" default="test" basedir=".">
-    <property name="src" location="src/control/Main.java"/>
+    <property name="src" location="src/"/>
 
     <target name="test">
         <javac srcdir="${src}"/>
